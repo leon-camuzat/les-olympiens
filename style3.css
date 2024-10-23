@@ -1,7 +1,118 @@
-#actu ul {
-    display: flex;
-    list-style-type: none;
-    justify-content:  space-around;
+h1 {
+   display: flex;
+   justify-content: center;
+   
 }
+
+
+
+li1 img{
+    border: 3px solid pink;
+    display: flex;
+    width: 400px;
+    
+}
+ul1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.Photovideo {
+    display: flex;
+    width: 200px;
+}
+
+nav {
+    background-color: gray;
+}
+
+
+
+
+    
+
+
+.timeline {
+   
+    position: relative;
+    min-height: 811px;
+    overflow-y: hidden;
+}
+
+    
+
+.timeline-item:before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 3px;
+    height: 100%;
+    left: 351px;
+    
+
+}
+
+.timeline-item {
+    margin: 0 74px;
+    margin-bottom: 50px;
+    
+    
+
+}
+
+.timeline-item-details-description {
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    border-radius: 4px;
+    margin-left: 280px;
+    
+}
+
+
+
+.timeline-item-details-marker {
+    position:relative;
+    z-index: 10;
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-left: 269px;
+}
+
+body {
+    background-color: rgb(36, 35, 35);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+
+.timeline-item-details-date {
+    color: white;
+    font-size: 1.6em;
+    
+    
+
+    
+    
+    
+    
+    
+}
+
+.Photovideo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
 
 
