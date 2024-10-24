@@ -24,8 +24,31 @@ ul1{
     width: 200px;
 }
 
-nav {
+
+
+li {
+    list-style-type: none;
+    
+    
+    
+
+}
+
+footer {
     background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  
+   
+    
+  
+}
+.footer {
+    height: 90px;
+    width:90px;
+   
+    
 }
 
 
@@ -46,7 +69,7 @@ nav {
 .timeline-item:before{
     content: '';
     position: absolute;
-    background-color: black;
+    background-color: rgba(253, 253, 253, 0.585);
     width: 3px;
     height: 100%;
     left: 351px;
@@ -65,10 +88,10 @@ nav {
 .timeline-item-details-description {
     padding: 16px;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(114, 111, 111);
     width: 400px;
     border-radius: 4px;
-    margin-left: 280px;
+    margin-left: 285px;
     
 }
 
@@ -78,21 +101,22 @@ nav {
     position:relative;
     z-index: 10;
     border-radius: 50%;
-    background-color: black;
+    background-color: rgb(114, 111, 111);
     width: 20px;
     height: 20px;
     margin-left: 269px;
 }
 
 body {
-    background-color: rgb(36, 35, 35);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(56, 53, 53);
+    
     
     
     
 }
+
+
+
 
 .timeline-item-details-date {
     color: white;
@@ -107,11 +131,70 @@ body {
     
 }
 
-.Photovideo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+.container {
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    
+
+}
+
+.photo-gallery {
+    display: flex;
+    gap: 20px;
     
 }
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+
+}
+
+.photo img{
+    width: 100%;
+    height:100%;
+    border-radius: 5px;
+    
+
+}
+
+@media  (max-width: 768px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+
+
+}
+
+
+nav {
+    background-color: grey;
+    display: flex;
+    height: 45px;
+    text-align: center;
+    border-radius: 60px;
+    
+    justify-content: space-around;
+ }
+
+ h1 {
+    text-shadow: 4px 3px 9px white;
+}
+
+.nav {
+    color: aliceblue;
+    padding: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+}
+
+
+
 
 
 
